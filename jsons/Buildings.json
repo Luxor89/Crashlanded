@@ -9,7 +9,6 @@
 		"science": 3,
 		"gold": 3,
 		"culture": 1,
-		"food": 2,
 		"cityStrength": 2,
 		"cost": 1,
 		"uniques": ["Indicates the capital city"]
@@ -29,9 +28,7 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": [
-			"Only available <during the [Ancient era]>",
-			"[+25]% growth [in this city] <during the [Ancient era]>",
-			"[+5 Gold] [in this city] <starting from the [Classical era]>",
+			"[+10]% growth [in this city] <during the [Ancient era]>",
 			"Triggers a [Kept promise: [Beacon]] event <when between [1] and [9] [Beacon promise]> <hidden from users>"
 		]
 	},
