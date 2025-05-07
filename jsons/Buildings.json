@@ -3,12 +3,13 @@
 
 	// Always available
 	{
-		"name": "Palace",
+		"name": "Great Camp",
 		"isNationalWonder": true,
 		"production": 3,
 		"science": 3,
 		"gold": 3,
 		"culture": 1,
+		"food": 2,
 		"cityStrength": 2,
 		"cost": 1,
 		"uniques": ["Indicates the capital city"]
@@ -20,6 +21,19 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Beacon",
+		"happiness": 1,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": [
+			"Only available <during the [Ancient era]>",
+			"[+25]% growth [in this city] <during the [Ancient era]>",
+			"[+5 Gold] [in this city] <starting from the [Classical era]>",
+			"Triggers a [Kept promise: [Beacon]] event <when between [1] and [9] [Beacon promise]> <hidden from users>"
+		]
 	},
 	{
 		"name": "Stele",
@@ -1219,5 +1233,12 @@
 		"faith": 2,
 		"happiness": 2,
 		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	},
+
+	// Game Mechanics
+	{
+		"name": "Promise: Build a beacon",
+		"cost": 0,
+		"uniques": ["Represents a promise you made.", "Unavailable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Beacon promise] <hidden from users>"]
 	}
 ]

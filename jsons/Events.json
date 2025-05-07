@@ -1,67 +1,4 @@
 [
-	// Test
-	{
-		"name": "Test Alert",
-		"text": "This is the text field",
-		"presentation": "Alert",
-		"civilopediaText": [{"text":"This is the civilopediaText field"}],
-		"choices": [
-		{
-			"text": "Choice 1",
-			"uniques": {
-				"Free [Musketman] appears"
-			}
-		},
-		{
-			"text": "Choice 2",
-			"uniques": {
-				"Free [Musketeer] appears"
-			}
-		}
-		]
-	},
-	{
-		"name": "Test Float",
-		"text": "This is the text field",
-		"presentation": "Float",
-		"civilopediaText": [{"text":"This is the civilopediaText field"}],
-		"choices": [
-		{
-			"text": "Choice 1",
-			"uniques": {
-				"Free [Musketman] appears"
-			}
-		},
-		{
-			"text": "Choice 2",
-			"uniques": {
-				"Free [Musketeer] appears"
-			}
-		}
-		]
-	},
-	{
-		"name": "Test None",
-		"text": "This is the text field",
-		"presentation": "None",
-		"civilopediaText": [{"text":"This is the civilopediaText field"}],
-		"choices": [
-		{
-			"text": "Choice 1",
-			"uniques": {
-				"Free [Musketman] appears"
-			}
-		},
-		{
-			"text": "Choice 2",
-			"uniques": {
-				"Free [Musketeer] appears"
-			}
-		}
-		]
-	},
-
-	// Vanilla Tutorial Events
     {
         "name":"Tutorial Task: [Move unit]",
         "presentation":"Floating",
@@ -249,5 +186,117 @@
             "Only available <if tutorials are enabled>",
             "Unavailable <if tutorial [See your stats breakdown] is completed>"
         ]
-    }
+    },
+
+    // Crashland
+
+	{
+		"name": "Crashland: [Beginning]",
+		"text": "- The Crashlanding -",
+		"presentation": "Alert",
+		"civilopediaText": [
+            {
+                "text":"Captain!",
+                "header": 3,
+                "centered": true
+            },
+            {
+                "text":"\"Captain? Can you hear us? Captain! Wake up Captain! Hey, they're waking up! They're alive! Long live the Captain!\" "
+            },
+            {
+                "text":"Due to an unkown critical failure, our spaceship's reactor entered meltdown forcing everyone to get to the escape pods.",
+                "padding": 2
+            },
+            {
+                "text":"Some of us landed in escape pods nearby and managed to form a small group. We don't have many resources but we had enough to create this small encampment."
+            }
+        ],
+		"choices": [
+			{
+				"text": "We must survive"
+			}
+		]
+	},
+    {
+		"name": "Crashland: [Search]",
+		"text": "- The Crashlanding -",
+		"presentation": "Alert",
+		"civilopediaText": [
+            {
+                "text":"The search for our people",
+                "header": 3,
+                "centered": true
+            },
+            {"text":"\"Captain! We have managed to set up a proper camp, but it became clear that we are missing most of our population.\""},
+            {"text":"\"Our people are worried for their friends and families, they're imploring you to research and construct the beacon to help guide the lost to us.\""}
+        ],
+		"choices": [
+            {
+				"text": "We will construct it",
+                "uniques": [
+                    "Gain a free [Promise: Build a beacon] [in capital] <hidden from users>"
+                ],
+                "civilopediaText":[
+                    {
+                        "text": "You'll have 15 turns to research and construct the beacon",
+                        "link": "Buildings/Beacon"
+                    }
+                ]
+			},
+			{
+				"text": "We must prioritize other things",
+                "uniques": [
+                    "[-1 Happiness] [in all cities] <for [10] turns>"
+                ]
+			}
+		]
+	},
+
+    // Promises
+    {
+		"name": "Kept promise: [Beacon]",
+		"text": "- Promises -",
+		"presentation": "Alert",
+		"civilopediaText": [
+            {
+                "text":"Beacon Constructed",
+                "header": 3,
+                "centered": true
+            },
+            {"text":"You have constructed the Beacon just like you promised."}
+        ],
+		"choices": [
+            {
+				"text": "Glad to hear it",
+                "uniques": [
+                    "[+1 Happiness] [in all cities] <for [20] turns>",
+                    "Remove [Promise: Build a beacon] [in capital] <hidden from users>",
+                    "Instantly consumes [10] [Beacon promise] <hidden from users>"
+                ]
+			}
+		]
+	},
+    {
+		"name": "Broken promise: [Beacon]",
+		"text": "- Promises -",
+		"presentation": "Alert",
+		"civilopediaText": [
+            {
+                "text":"Broken Promise",
+                "header": 3,
+                "centered": true
+            },
+            {"text":"You have not constructed the Beacon and have broken your promise."}
+        ],
+		"choices": [
+            {
+				"text": "I understand...",
+                "uniques": [
+                    "[-1 Happiness] [in all cities] <for [20] turns>",
+                    "Remove [Promise: Build a beacon] [in capital] <hidden from users>",
+                    "Instantly consumes [10] [Beacon promise] <hidden from users>"
+                ]
+			}
+		]
+	}
 ]

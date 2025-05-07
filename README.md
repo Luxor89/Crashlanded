@@ -1,3 +1,4 @@
 # Crashlanded
-This is a tralalala mod, I forgor the word.
-Most content added comes from other civ games.
+This is a total conversion mod.
+Add tons of new content.
+add more description here

@@ -1,3 +1,12 @@
 {
-    "isBaseRuleset": true
+    "isBaseRuleset":true,
+    "uniques": [
+        "Can trade civilization introductions for [100] Gold",
+        "Can only start games from the starting era"
+    ],
+    "constants": {
+        "maxSpyRank": 5,
+        "spyRankSkillPercentBonus": 20,
+        "cityStateElectionTurns": 5
+    }
 }

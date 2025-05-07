@@ -8,18 +8,19 @@
         "Cannot build [Settler] units <when below [-10] Happiness>",
         "Rebel units may spawn <when below [-20] Happiness>",
         "[-1] Sight <for [Embarked] units>",
+        "[+20]% [Culture] [in all cities] <during a Golden Age>",
+        "[+20]% [Production] [in all cities] <during a Golden Age>",
+        "[-75]% growth [in all cities]",
+        "Triggers a [Crashland: [Beginning]] event <upon founding a city> <when number of [Cities] is less than [2]>",
+        
+        // Promises
+        "Triggers a [Broken promise: [Beacon]] event <when above [9] [Beacon promise]> <upon turn start>"
 
         // TODO: Implement the uniques below
-        // "[+20]% [Culture] [in all cities] <during a golden age>",
-        // "[+20]% [Production] [in all cities] <during a golden age>",
-
         // "[+10]% growth [in all cities] <during We Love The King Day>",
-
         // "Nullifies All Yield <while is in resistance>",
-
         // "[-25]% [Science] [in pupetted cities]" -- Imo cityFilters should ideally become conditionals anyway
         // "[-25]% [Culture] [in pupetted cities]"
-
         // "[+20]% [Production] [in cities connected via railroad]"
         // something something unit supply
     ]

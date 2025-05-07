@@ -1,14 +1,72 @@
 [
-	//Spectator
-    //Not "Excluded from map editor" as it serves as placeholder for "Any Civ" starting locations
+	// Spectator
 	{
 		"name": "Spectator",
 		"outerColor": [255,255,255]
-//		"innerColor": [255,255,255]
+		//"innerColor": [255,255,255]
 	},
 
+	// -------------- Nations --------------
+	/*
 	{
-		//nations
+		// Data
+		"name": "Name",
+		"leaderName": "Leader",
+		"adjective": ["Adjective"],
+		"startBias": [""],
+		"preferredVictoryType": "Domination",
+		"personality": "Personality",
+
+		// Text
+		"startIntroPart1": "Text",
+		"startIntroPart2": "Text",
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "You will pay for your crimes!",
+		"defeated": "You have defeated us...",	
+		"introduction": "Greetings, I am leader of empire.",
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+		"tradeRequest": "How about a deal?",
+
+		// Colors
+		"innerColor": [255,255,255],
+		"outerColor": [255,255,255],
+
+		// Uniques
+		"uniqueName": "Unique Ability",
+		"uniques": [
+			"uniques"
+		],
+
+		// City & Spy names
+		"cities": [
+			"Capital City",
+			"City 1",
+			"City 2",
+			"City 3",
+			"City 4",
+			"City 5",
+			"City 6",
+			"City 7",
+			"City 8",
+			"City 9",
+			"City 10"
+		],
+		"spyNames": [
+			"Spy 1",
+			"Spy 2",
+			"Spy 3",
+			"Spy 4",
+			"Spy 5",
+			"Spy 6",
+			"Spy 7",
+			"Spy 8",
+			"Spy 9",
+			"Spy 10"
+		]
+	}
+	*/
+	{
 		"name": "Babylon",
 		"leaderName": "Nebuchadnezzar II",
 		"adjective": ["Babylonian"],
@@ -27,13 +85,16 @@
 		"neutralHello": "Greetings.",
 		"hateHello": "What do YOU want?!",
 
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+		"tradeRequest": "It appears that you do have a reason for existing - to make this deal with me.",
 
 		"outerColor": [27,53,63],
 		"innerColor": [213,249,255],
 		"favoredReligion": "Islam",
 		"uniqueName": "Ingenuity",
-		"uniques": ["Free [Great Scientist] appears <upon discovering [Writing] technology>", "[Great Scientist] is earned [50]% faster"],
+		"uniques": [
+			"Free [Great Scientist] appears <upon discovering [Writing] technology>",
+			"[Great Scientist] is earned [50]% faster"
+		],
 		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
 			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
 			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",

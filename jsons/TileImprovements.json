@@ -150,6 +150,13 @@
 		"shortcutKey": "X"
 	},
 	{
+		"name": "Remove Escape Pod",
+		"turnsToBuild": 2,
+		// Has no tech requirements as it can always be built
+		"uniques": ["Can be built outside your borders", "Excluded from map editor", "[+1] population in a random city"],
+		"shortcutKey": "X"
+	},
+	{
 		"name": "Remove Fallout",
 		"turnsToBuild": 2,
 		// Has no tech requirements as it can always be built
