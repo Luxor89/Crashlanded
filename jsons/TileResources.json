@@ -511,7 +511,19 @@
 
 	// Game Mechanics
 	{
-		"name": "Beacon promise",
+		"name": "Promise: Beacon",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Excluded from map editor",
+			"Stockpiled",
+			"Cannot be traded",
+			"Not shown on world screen",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Survs left",
 		"resourceType": "Strategic",
 		"uniques": [
 			"Doesn't generate naturally",

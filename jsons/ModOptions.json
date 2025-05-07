@@ -1,12 +1,1 @@
-{
-    "isBaseRuleset":true,
-    "uniques": [
-        "Can trade civilization introductions for [100] Gold",
-        "Can only start games from the starting era"
-    ],
-    "constants": {
-        "maxSpyRank": 5,
-        "spyRankSkillPercentBonus": 20,
-        "cityStateElectionTurns": 5
-    }
-}
+{"isBaseRuleset":true,"constants":{"cityStateElectionTurns":5,"maxSpyRank":5,"spyRankSkillPercentBonus":20},"modUrl":"https://github.com/Luxor89/Crashlanded","defaultBranch":"main","author":"Luxor89","lastUpdated":"2025-05-07T18:08:43Z","modSize":195,"uniques":["Can trade civilization introductions for [100] Gold","Can only start games from the starting era"]}

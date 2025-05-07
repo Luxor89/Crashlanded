@@ -28,8 +28,9 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": [
-			"[+10]% growth [in this city] <during the [Ancient era]>",
-			"Triggers a [Kept promise: [Beacon]] event <when between [1] and [9] [Beacon promise]> <hidden from users>"
+			"Increases population every 5 turns",
+			"Triggers a [Crashland: [Survivors Beacon]] event <upon turn start> <hidden from users> <every [5] turns> <during the [Ancient era]>",
+			"Triggers a [Kept promise: [Beacon]] event <when between [1] and [9] [Promise: Beacon]> <hidden from users>"
 		]
 	},
 	{
@@ -1236,6 +1237,6 @@
 	{
 		"name": "Promise: Build a beacon",
 		"cost": 0,
-		"uniques": ["Represents a promise you made.", "Unavailable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Beacon promise] <hidden from users>"]
+		"uniques": ["Represents a promise you made.", "Unavailable", "Unsellable", "Will not be displayed in Civilopedia", "Provides [1] [Promise: Beacon] <hidden from users>"]
 	}
 ]

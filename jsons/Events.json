@@ -227,8 +227,8 @@
                 "header": 3,
                 "centered": true
             },
-            {"text":"\"Captain! We have managed to set up a proper camp, but it became clear that we are missing most of our population.\""},
-            {"text":"\"Our people are worried for their friends and families, they're imploring you to research and construct the beacon to help guide the lost to us.\""}
+            {"text":"Captain! We have managed to set up a proper camp, but it became clear that we are missing most of our population."},
+            {"text":"Our people are worried for their friends and families, they're imploring you to research and construct the beacon to help guide the lost to us."}
         ],
 		"choices": [
             {
@@ -238,7 +238,7 @@
                 ],
                 "civilopediaText":[
                     {
-                        "text": "You'll have 15 turns to research and construct the beacon",
+                        "text": "You'll have 10 turns to research and construct the beacon",
                         "link": "Buildings/Beacon"
                     }
                 ]
@@ -247,6 +247,28 @@
 				"text": "We must prioritize other things",
                 "uniques": [
                     "[-1 Happiness] [in all cities] <for [10] turns>"
+                ]
+			}
+		]
+	},
+    {
+		"name": "Crashland: [Survivors Beacon]",
+		"text": "- The Crashlanding -",
+		"presentation": "Alert",
+		"civilopediaText": [
+            {
+                "text":"Reunion",
+                "header": 3,
+                "centered": true
+            },
+            {"text":"Captain! A group of survivors have reached the city! They claimed that they couln't have made it if it wasn't for the beacon we built."},
+            {"text":"We are stil missing more people but thanks to the beacon they should arrive sooner rather than later."}
+        ],
+		"choices": [
+            {
+				"text": "Glad to hear it",
+                "uniques": [
+                    "[+1] population [in capital]"
                 ]
 			}
 		]
@@ -271,7 +293,7 @@
                 "uniques": [
                     "[+1 Happiness] [in all cities] <for [20] turns>",
                     "Remove [Promise: Build a beacon] [in capital] <hidden from users>",
-                    "Instantly consumes [10] [Beacon promise] <hidden from users>"
+                    "Instantly consumes [10] [Promise: Beacon] <hidden from users>"
                 ]
 			}
 		]
@@ -294,7 +316,7 @@
                 "uniques": [
                     "[-1 Happiness] [in all cities] <for [20] turns>",
                     "Remove [Promise: Build a beacon] [in capital] <hidden from users>",
-                    "Instantly consumes [10] [Beacon promise] <hidden from users>"
+                    "Instantly consumes [10] [Promise: Beacon] <hidden from users>"
                 ]
 			}
 		]
