@@ -252,8 +252,30 @@
 		]
 	},
     {
-		"name": "Crashland: [Survivors Beacon]",
-		"text": "- The Crashlanding -",
+		"name": "Survivors: [No Beacon]",
+		"text": "- The Survivors -",
+		"presentation": "Alert",
+		"civilopediaText": [
+            {
+                "text":"Reunion",
+                "header": 3,
+                "centered": true
+            },
+            {"text":"Captain! A group of survivors have reached the city! They claimed that they got attacked by strange bug-like creatures because they got lost trying to find the city."},
+            {"text":"We are stil missing more people but they'll probably die unless we build something to guide them."}
+        ],
+		"choices": [
+            {
+				"text": "We'll find them",
+                "uniques": [
+                    "[+1] population [in capital]"
+                ]
+			}
+		]
+	},
+    {
+		"name": "Survivors: [Beacon]",
+		"text": "- The Survivors -",
 		"presentation": "Alert",
 		"civilopediaText": [
             {
@@ -268,7 +290,52 @@
             {
 				"text": "Glad to hear it",
                 "uniques": [
-                    "[+1] population [in capital]"
+                    "[+1] population [in capital]",
+                    "Instantly consumes [1] [Survs left] <hidden from users>"
+                ]
+			}
+		]
+	},
+    {
+		"name": "Survivors: [Beacon 2]",
+		"text": "- The Survivors -",
+		"presentation": "Alert",
+		"civilopediaText": [
+            {
+                "text":"More Survivors",
+                "header": 3,
+                "centered": true
+            },
+            {"text":"Captain! Even more survivors have reached the city!"}
+        ],
+		"choices": [
+            {
+				"text": "Glad to hear it",
+                "uniques": [
+                    "[+1] population [in capital]",
+                    "Instantly consumes [1] [Survs left] <hidden from users>"
+                ]
+			}
+		]
+	},
+    {
+		"name": "Survivors: [Beacon 3]",
+		"text": "- The Survivors -",
+		"presentation": "Alert",
+		"civilopediaText": [
+            {
+                "text":"The last group",
+                "header": 3,
+                "centered": true
+            },
+            {"text":"Captain! Yet another group has arrived in the city!"}
+        ],
+		"choices": [
+            {
+				"text": "Glad to hear it",
+                "uniques": [
+                    "[+1] population [in capital]",
+                    "Instantly consumes [1] [Survs left] <hidden from users>"
                 ]
 			}
 		]
