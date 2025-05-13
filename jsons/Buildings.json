@@ -22,20 +22,6 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
-		"name": "Beacon",
-		"happiness": 1,
-		"cost": 40,
-		"hurryCostModifier": 40,
-		"maintenance": 1,
-		"uniques": [
-			"Increases population every 6 turns",
-			"Triggers a [Survivors: [Beacon]] event <when above [2] [Survs left]> <upon turn start> <every [6] turns> <during the [Ancient era]> <hidden from users>",
-			"Triggers a [Survivors: [Beacon 2]] event <when between [2] and [2] [Survs left]> <upon turn start> <every [6] turns> <during the [Ancient era]> <hidden from users>",
-			"Triggers a [Survivors: [Beacon 3]] event <when between [1] and [1] [Survs left]> <upon turn start> <every [6] turns> <during the [Ancient era]> <hidden from users>",
-			"Triggers a [Kept promise: [Beacon]] event <when between [1] and [9] [Promise: Beacon]> <hidden from users>"
-		]
-	},
-	{
 		"name": "Stele",
         "replaces": "Monument",
 		"uniqueTo": "Ethiopia",
