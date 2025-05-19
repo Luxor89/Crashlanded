@@ -1,4 +1,5 @@
 [
+    // Vanilla - To be replaced
     {
         "name": "Civilian",
         "movementType": "Land"

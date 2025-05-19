@@ -509,7 +509,19 @@
 					"Doesn't generate naturally <in [{Tundra} {Forest}] tiles>"]
 	},
 
-	// Game Mechanics
+	// -------------- Variables --------------
+	// Stats
+	{
+		"name": "Housing",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Doesn't generate naturally",
+			"Excluded from map editor",
+			"Cannot be traded",
+			"City-level resource"
+		]
+	}
+	/*
 	{
 		"name": "Promise: Beacon",
 		"resourceType": "Strategic",
@@ -521,17 +533,6 @@
 			"Not shown on world screen",
 			"Will not be displayed in Civilopedia"
 		]
-	},
-	{
-		"name": "Survs left",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Doesn't generate naturally",
-			"Excluded from map editor",
-			"Stockpiled",
-			"Cannot be traded",
-			"Not shown on world screen",
-			"Will not be displayed in Civilopedia"
-		]
 	}
+	*/
 ]
